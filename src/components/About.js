@@ -7,12 +7,13 @@ function About() {
   // We return all the JSX inside a parent element with a className of "container".
   return (
     <div className="about">
-      <h1>Who is Grace?</h1>
-        <strong>
-          With a love of computers from a young age, and a background in customer service, 
-          I have learnt how cruical a quaility website can be to a successful business.
-          Please explore my current portfolio to see what kind of work I can help bring to a project. 
-        </strong>
+      <h1>Who is Grace?</h1> 
+        <div className="flex-container-outer">
+          <img src="../assets/bitmoji.png" alt="Itsa me!" className="bitmoji"></img>
+            <div id="about-me" className="flex-container-about-me"> With a love of computers from a young age, and a background in customer service, I have learnt how cruical a quaility website can be to a successful business.
+            Please explore my current portfolio to see what kind of work I can help bring to a project.  
+            </div>
+        </div>
         <h2 className="mt-5">Skills</h2>
             <div className="content">
               <div>

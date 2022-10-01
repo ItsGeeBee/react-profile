@@ -50,4 +50,32 @@ p {
    margin-bottom: 5px;
    width: 100%;
  }
- 
+
+.bitmoji {
+width: 350px;
+margin-bottom: 1px;
+top: -5px;
+}
+
+.flex-container-about-me {
+display: flex;
+justify-content:center;
+align-items: center;
+border-color: var(--white);
+padding: 20px;
+border: 10px solid rgb(0, 0, 0);
+border-radius: 15px 50px;
+width: 40%;
+position:relative;
+}
+
+.flex-container-outer {
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   margin: 2% auto;
+   border-color: var(--white);
+   padding: 20px;
+   width: 65;
+   position:relative;
+}
