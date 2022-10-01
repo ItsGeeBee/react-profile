@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
 import Project from './components/Project';
+import Resume from './components/resume';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -19,6 +20,8 @@ function App() {
       < Route path='/About' element={< About/>} />
       < Route path='/Portfolio' element={< Portfolio/>} />
       < Route path='/Contact' element={< Contact/>} />
+      < Route path='/Resume' element={< Resume/>} />
+      < Route path='/' element={< About/>} />
       </Routes>
       < Footer/>
       </BrowserRouter>

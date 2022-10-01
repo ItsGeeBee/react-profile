@@ -29,10 +29,25 @@ p {
 }
 
 .quiz-image{
-
    background-image: url('../assets/github-logo.png');
    height: 300px;
    width: 300px;
   
 }
 
+.header {
+   display: flex;
+   flex-direction: row;
+}
+
+.form {
+   margin: 20px;
+ }
+ 
+ .form input {
+   display: block;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   width: 100%;
+ }
+ 
