@@ -1,20 +1,21 @@
 import React from 'react';
 import './components.css';
-import Quiz from '../images/quiz.png';
-import Password from '../images/password.png';
+// import '../images';
 
-function Project() {
+function Project(props) {
  
   return (
-  <div class="d-flex flex-wrap justify-content-evenly">
+  <div>
+    {props.projects.map((project, i) => (
       <div>
-          <h4>Javascript - Quiz Countdown</h4> 
-            <img src={Quiz} className="quiz-image" alt=""></img>
-      </div>
-      <div>
-        <h4>Javascript - Password Generator</h4>
-          <img src={Password} className="password-image" alt=""></img>
-       </div>
+      <p key={project.id}>{project.title}</p>
+      <p>{project.description}</p>
+      <p>{project.technologies}</p>
+      <a href={props.repo}>GitHub</a>
+      <a href={project.live}>Live Preview</a>
+      <img src={project.image} alt=''></img>
+    </div>
+    ))}
   </div>
   );
 }

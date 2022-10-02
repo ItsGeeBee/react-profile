@@ -7,7 +7,7 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
 import Project from './components/Project';
-import Resume from './components/resume';
+import Resume from './components/Resume';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
 
