@@ -1,15 +1,16 @@
 import React from 'react';
 import {Parallax} from 'react-parallax';
 import './components.css';
+import Bitmoji from '../images/bitmoji.png';
 
 function About() {
   // All functional components must have a return method that contains JSX.
   // We return all the JSX inside a parent element with a className of "container".
   return (
     <div className="about">
-      <h1>Who is Grace?</h1> 
+      <h3>Who is Grace?</h3> 
         <div className="flex-container-outer">
-          <img src="../assets/bitmoji.png" alt="Itsa me!" className="bitmoji"></img>
+          <img src={Bitmoji} alt="Itsa me!" className="bitmoji"></img>
             <div id="about-me" className="flex-container-about-me"> With a love of computers from a young age, and a background in customer service, I have learnt how cruical a quaility website can be to a successful business.
             Please explore my current portfolio to see what kind of work I can help bring to a project.  
             </div>

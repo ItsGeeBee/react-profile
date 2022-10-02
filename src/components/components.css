@@ -1,3 +1,8 @@
+:root {
+   --marker: 'Permanent Marker', cursive; 
+   --black: #000000;
+   --white: #ffff;
+}
 
 li {
    list-style: none;
@@ -29,16 +34,24 @@ p {
 }
 
 .quiz-image{
-   background-image: url('../assets/github-logo.png');
-   height: 300px;
-   width: 300px;
+   /* background-image: url('../assets/quiz.png'); */
+   border-radius: 15px 50px;
+   background-size: cover;
+   background-position: center;
   
 }
 
-.header {
+/* .quiz-image{
+   background-image: url('../assets/password.png');
+   border-radius: 15px 50px;
+   background-size: cover;
+   background-position: center; 
+}*/
+
+/* .header {
    display: flex;
    flex-direction: row;
-}
+} */
 
 .form {
    margin: 20px;
@@ -63,7 +76,7 @@ justify-content:center;
 align-items: center;
 border-color: var(--white);
 padding: 20px;
-border: 10px solid rgb(0, 0, 0);
+border: 8px solid rgb(0, 0, 0);
 border-radius: 15px 50px;
 width: 40%;
 position:relative;
@@ -76,6 +89,12 @@ position:relative;
    margin: 2% auto;
    border-color: var(--white);
    padding: 20px;
-   width: 65;
    position:relative;
 }
+
+h3 {
+   text-align: center;
+   font-family: var(--marker);
+   padding-top: 40px;
+  }
+ 
