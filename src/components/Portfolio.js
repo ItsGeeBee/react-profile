@@ -1,6 +1,8 @@
 import React from 'react';
 import Project from './Project';
 import './components.css';
+import Tradie from '../images/tradie.png';
+import Password from '../images/password.png';
 
 const projects = [
   {   
@@ -10,7 +12,7 @@ const projects = [
       technologies: 'Node.js, Express.js, MySQL, Sequelize, Javascript, Handlebars.js, Bootstrap, npm, Heroku', 
       repo: 'https://github.com/ItsGeeBee/check-a-tradie', 
       live: 'https://pacific-waters-66801.herokuapp.com/',
-      image: 'src/images/tradie.png'
+      image: Tradie
   },
   {   
       id:1,
@@ -19,7 +21,7 @@ const projects = [
       technologies: 'HTML, CSS, Javascript', 
       repo: 'https://github.com/ItsGeeBee/password-generator-resbumisson', 
       live: 'https://itsgeebee.github.io/password-generator-resbumisson/',
-      image: 'src/images/password.png'
+      image: Password
   }
 ];
 
