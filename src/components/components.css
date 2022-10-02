@@ -34,19 +34,17 @@ p {
 }
 
 .quiz-image{
-   /* background-image: url('../assets/quiz.png'); */
-   border-radius: 15px 50px;
-   background-size: cover;
-   background-position: center;
-  
+      width: 100%;
+      max-width: 450px;
+      height: auto;
 }
+  
 
-/* .quiz-image{
-   background-image: url('../assets/password.png');
-   border-radius: 15px 50px;
-   background-size: cover;
-   background-position: center; 
-}*/
+.password-image{
+   width: 100%;
+   max-width: 450px;
+   height: auto; 
+}
 
 /* .header {
    display: flex;

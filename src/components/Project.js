@@ -6,22 +6,15 @@ import Password from '../images/password.png';
 function Project() {
  
   return (
-  <div className="container">
-    <h3>Projects</h3>
-        <div class="d-flex flex-row col-12">
-          <div class="col-4">
-            <h4>Javascript - Quiz Countdown</h4> 
-            <div>
-            {Quiz}
-            </div>
-          </div>
-        <div class="col-4">
-        <h4>Javascript - Password Generator</h4>
-          <div>
-          {Password}
-          </div>
-        </div>
+  <div class="d-flex flex-wrap justify-content-evenly">
+      <div>
+          <h4>Javascript - Quiz Countdown</h4> 
+            <img src={Quiz} className="quiz-image" alt=""></img>
       </div>
+      <div>
+        <h4>Javascript - Password Generator</h4>
+          <img src={Password} className="password-image" alt=""></img>
+       </div>
   </div>
   );
 }
