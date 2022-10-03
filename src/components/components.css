@@ -314,12 +314,14 @@ button {
   grid-column: 2 / 4;
 }
  
-.active {
-
-  color: red
+.nav-active li{
+  font-weight: 200;
+  font-style: italic;
+  color: red;
 }
 
-.not-active {
-
-  color: greenyellow
+.break {
+  height: 10px;
+  width: 100%;
+  background-color: #000;
 }

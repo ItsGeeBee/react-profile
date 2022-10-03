@@ -1,33 +1,33 @@
-import React  from 'react';
+import React, { useState } from 'react';
 import './components.css';
 
 
 function Nav() {
 
-  return (
-    <nav id="nav" class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" data-bs-toggle="tab" aria-current="page" href='/About'>About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" data-bs-toggle="tab" aria-current="page" href='/Portfolio'>Portfolio</a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link active" data-bs-toggle="tab" aria-current="page" href="/Resume">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" data-bs-toggle="tab" aria-current="page" href='/Contact'> Contact </a>
-          </li>
+  const [isActive, setIsActive] = useState(false);
+
+  const handleClick = () => {
+   
+    setIsActive(current => !current);
+  };
+
+return (
+    <nav>
+        <ul>
+            <li>
+                <a href="/" className={isActive ? 'nav-active': ''} onClick={handleClick}>About Me</a>
+            </li>
+            <li>
+                <a href="/Portfolio" className={isActive ? 'nav-active': ''} onClick={handleClick}>Portfolio</a>
+            </li>
+            <li>
+                <a href="/Resume" className={isActive ? 'nav-active': ''} onClick={handleClick}>Resume</a>
+            </li>
+            <li>
+                <a href="/Contact" className={isActive ? 'nav-active': ''} onClick={handleClick}>Contact</a>
+            </li>
         </ul>
-      </div>
-    </div>
-  </nav>
-
-
-
-  );
-}
+    </nav >
+);
+}; 
 export default Nav;

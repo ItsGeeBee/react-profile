@@ -58,11 +58,11 @@ import { validateEmail } from '../utils/helpers';
   };
 
   return (
-    <div class="col justify-content-center">
+    <div className ="col justify-content-center">
       <h3>Lets Connect!</h3>
-      <form class="col justify-content-center">
-      <div class="w-50 p-2">   
-        <input class="form-control"
+      <form className ="col justify-content-center">
+      <div className ="w-50 p-2">   
+        <input className ="form-control"
           value={name}
           name="name"
           onChange={handleInputChange}
@@ -70,8 +70,8 @@ import { validateEmail } from '../utils/helpers';
           placeholder="Name"
         />
         </div>
-      <div class="w-50 p-2">
-        <input class="form-control" 
+      <div className ="w-50 p-2">
+        <input className ="form-control" 
           value={email}
           name="email"
           onChange={handleInputChange}
@@ -79,8 +79,8 @@ import { validateEmail } from '../utils/helpers';
           placeholder="email"  
         />
       </div>
-        <div class="w-50 p-2">
-        <input class="form-control"
+        <div className ="w-50 p-2">
+        <input className ="form-control"
           value={message}
           name="message"
           onChange={handleInputChange}

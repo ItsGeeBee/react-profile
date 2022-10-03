@@ -17,7 +17,8 @@ function Resume() {
             </span>
             <span className="button-text" href="https://docs.google.com/document/d/1es11ZmIRBTnWoeXDgfH9l8CfJVNcvV135jVvDPn2J6g/edit?usp=sharing">View Resume</span>
             </button>
-    </div>
+    </div>        
+    <div className="break"></div>
     <div className="p-2">
     <div className="wrapper justify-content-center">
           <div className="card">
