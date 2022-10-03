@@ -1,5 +1,5 @@
 import React from 'react';
-import {Parallax} from 'react-parallax';
+// import {Parallax} from 'react-parallax';
 import './components.css';
 import Bitmoji from '../images/bitmoji.png';
 
@@ -17,45 +17,27 @@ function About() {
             Please explore my current portfolio to see what kind of work I can help bring to a project.  
             </div>
         </div>
-        <div className="wrapper justify-content-center">
-          <div className="card">
-          <h1>
-          <span className="enclosed">Skill</span>Set
-          </h1>
-        </div>
-        </div>
-        <div>
-            <h3>Languages:</h3>
-            <p>JavaScript</p>
-        </div>
-        <div>
-            <h3>Frameworks/Libraries</h3>
-            <p>Node.js</p>
-            <p>Express.js</p>
-            <p>React.js</p>
-            <p>Bootstrap</p>
-        </div>
-        <div>
-            <h3>Databases</h3>
-            <p>MySQL</p>
-            <p>MongoDB</p>
-        </div>
-        <div>
-            <h3>Tools</h3>
-            <p>Git</p>
-            <p>GitHub</p>
-            <p>Webpack</p>
-            <p>DevTools</p>
-        </div>
-      {/* <div>       
-      <Parallax
+
+
+  <div className='parallax'>
+  <img src="https://cdn.shopify.com/s/files/1/0306/6419/6141/articles/coding_languages_1200x.png?v=1619126283" alt=""></img>
+  <article>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </article>
+  </div> 
+
+      {/* <Parallax
         blur={{ min: -15, max: 15 }}
-        bgImage='https://images.unsplash.com/photo-1483232539664-d89822fb5d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2VhbWxlc3MlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80'
-        strength={-200}
+        bgImage='https://cdn.shopify.com/s/files/1/0306/6419/6141/articles/coding_languages_1200x.png?v=1619126283'
+        strength={-100}
     >
         <div style={{ height: '500px' }} />
-    </Parallax>
-    </div> */}
+    </Parallax> */}
+    
   </div>
   );
 }

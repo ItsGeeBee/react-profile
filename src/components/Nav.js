@@ -10,13 +10,13 @@ function Nav() {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" data-bs-toggle="tab" aria-current="page" href="/Header">Home</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link active" data-bs-toggle="tab" aria-current="page" href='/About'>About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" data-bs-toggle="tab" aria-current="page" href='/Portfolio'>Portfolio</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link active" data-bs-toggle="tab" aria-current="page" href="/Resume">Resume</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" data-bs-toggle="tab" aria-current="page" href='/Contact'> Contact </a>

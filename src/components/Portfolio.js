@@ -3,6 +3,8 @@ import Project from './Project';
 import './components.css';
 import Tradie from '../images/tradie.png';
 import Password from '../images/password.png';
+import Quiz from '../images/quiz.png';
+import Planner from '../images/planner.png'
 
 const projects = [
   {   
@@ -22,6 +24,24 @@ const projects = [
       repo: 'https://github.com/ItsGeeBee/password-generator-resbumisson', 
       live: 'https://itsgeebee.github.io/password-generator-resbumisson/',
       image: Password
+  },
+  {   
+    id:2,
+    title: 'Quiz Countdown', 
+    description: 'A timed coding quiz with multiple-choice questions', 
+    technologies: 'HTML, CSS, Javascript', 
+    repo: 'https://github.com/ItsGeeBee/js-countdown-quiz', 
+    live: 'https://itsgeebee.github.io/js-countdown-quiz/',
+    image: Planner
+  },
+  {
+    id:3,
+    title: 'Work Day Planner', 
+    description: 'A simple calendar application that allows a user to save events for each hour of the day', 
+    technologies: 'HTML, CSS, Javascript, Moment.js', 
+    repo: 'https://github.com/ItsGeeBee/work-day-scheduler', 
+    live: 'https://itsgeebee.github.io/work-day-scheduler/',
+    image: Quiz
   }
 ];
 
