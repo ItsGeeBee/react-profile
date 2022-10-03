@@ -14,13 +14,14 @@ import Bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
 
   const pages = [
-    { name: "/About" },
-    { name: "/Portfolio" },
-    { name: "/Resume" },
-    { name: "/Contact" },
+    { name: "about" },
+    { name: "portfolio" },
+    { name: "resume" },
+    { name: "contact" },
   ];
 
   const [currentPage, setCurrentPage] = useState(pages[0]);
+
 
   return (
     <div className="App">
