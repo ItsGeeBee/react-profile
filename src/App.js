@@ -8,10 +8,12 @@ import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
 import Project from './components/Project';
 import Resume from './components/Resume';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {BrowserRouter, Routes, Route, NavLink} from 'react-router-dom';
 import Bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
+
+
   return (
     <div className="App">
       < BrowserRouter>

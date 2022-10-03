@@ -299,13 +299,14 @@ button {
  }
 
  .parallax {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   line-height: 0;
   position: relative;
 }
 .parallax  img {
   width: 100%;
+  height: 90%;
 }
 .parallax  article {
   position: absolute;
@@ -325,3 +326,12 @@ button {
   grid-column: 2 / 4;
 }
  
+.active {
+
+  color: red
+}
+
+.not-active {
+
+  color: greenyellow
+}

@@ -4,7 +4,9 @@ import './components.css';
 import Tradie from '../images/tradie.png';
 import Password from '../images/password.png';
 import Quiz from '../images/quiz.png';
-import Planner from '../images/planner.png'
+import Planner from '../images/planner.png';
+import Weather from '../images/weather.png';
+import Satisfy from '../images/satisfy.png';
 
 const projects = [
   {   
@@ -26,14 +28,14 @@ const projects = [
       image: Password
   },
   {   
-    id:2,
-    title: 'Quiz Countdown', 
-    description: 'A timed coding quiz with multiple-choice questions', 
-    technologies: 'HTML, CSS, Javascript', 
-    repo: 'https://github.com/ItsGeeBee/js-countdown-quiz', 
-    live: 'https://itsgeebee.github.io/js-countdown-quiz/',
-    image: Planner
-  },
+      id:2,
+      title: 'Quiz Countdown', 
+      description: 'A timed coding quiz with multiple-choice questions', 
+      technologies: 'HTML, CSS, Javascript', 
+      repo: 'https://github.com/ItsGeeBee/js-countdown-quiz', 
+      live: 'https://itsgeebee.github.io/js-countdown-quiz/',
+      image: Quiz
+    },
   {
     id:3,
     title: 'Work Day Planner', 
@@ -41,7 +43,25 @@ const projects = [
     technologies: 'HTML, CSS, Javascript, Moment.js', 
     repo: 'https://github.com/ItsGeeBee/work-day-scheduler', 
     live: 'https://itsgeebee.github.io/work-day-scheduler/',
-    image: Quiz
+    image: Planner
+  },
+  {
+    id:4,
+    title: 'Weather Dashboard', 
+    description: 'Weather dashboard application that provides current day weather along with a 5 day forecast. Utilises third-party API and local storage', 
+    technologies: 'HTML, CSS, Javascript, Moment.js, OpenWeather API', 
+    repo: 'https://github.com/ItsGeeBee/weather-dashboard', 
+    live: 'https://itsgeebee.github.io/weather-dashboard/',
+    image: Weather
+  },
+  {
+    id:5,
+    title: 'Satisfy', 
+    description: 'This application will allow the users to find and save recipes by choosing available ingredients. It will also recommend possible eating locations based on users selected area', 
+    technologies: 'HTML, CSS, Javascript, Moment.js, OpenWeather API', 
+    repo: 'https://github.com/ItsGeeBee/satisfy', 
+    live: 'https://juanmarquez4.github.io/07-Project-Satisfy/',
+    image: Satisfy
   }
 ];
 
