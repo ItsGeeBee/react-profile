@@ -314,7 +314,7 @@ button {
   grid-column: 2 / 4;
 }
  
-.nav-active li{
+.nav-active {
   font-weight: 200;
   font-style: italic;
   color: red;
