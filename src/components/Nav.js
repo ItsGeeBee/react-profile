@@ -3,10 +3,9 @@ import './components.css';
 
 
 function Nav() {
-  // All functional components must have a return method that contains JSX.
-  // We return all the JSX inside a parent element with a className of "container".
+
   return (
-    <nav class="navbar navbar-expand-lg">
+    <nav id="nav" class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">

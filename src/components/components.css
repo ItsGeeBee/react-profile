@@ -33,19 +33,6 @@ p {
    color: #56738C;
 }
 
-.quiz-image{
-      width: 100%;
-      max-width: 450px;
-      height: auto;
-}
-  
-.password-image{
-   width: 100%;
-   max-width: 450px;
-   height: auto; 
-}
-
-
 .form {
    margin: 20px;
  }
@@ -58,7 +45,7 @@ p {
  }
 
 .bitmoji {
-width: 350px;
+width: 20%;
 margin-bottom: 1px;
 top: -5px;
 }
@@ -73,6 +60,7 @@ border: 8px solid rgb(0, 0, 0);
 border-radius: 15px 50px;
 width: 40%;
 position:relative;
+font-size: 1.1vw;
 }
 
 .flex-container-outer {
@@ -95,7 +83,7 @@ h3 {
    display: inline-block;
    width: 75%;
    text-align: center;
-   padding-bottom: 7%;
+   padding-bottom: 2%;
  }
  
  .img-container {
