@@ -39,17 +39,12 @@ p {
       height: auto;
 }
   
-
 .password-image{
    width: 100%;
    max-width: 450px;
    height: auto; 
 }
 
-/* .header {
-   display: flex;
-   flex-direction: row;
-} */
 
 .form {
    margin: 20px;
