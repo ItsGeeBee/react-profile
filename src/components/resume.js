@@ -15,7 +15,7 @@ function Resume() {
             <span className="circle" aria-hidden="true">
             <span className="icon arrow"></span>
             </span>
-            <span className="button-text" href="https://docs.google.com/document/d/1es11ZmIRBTnWoeXDgfH9l8CfJVNcvV135jVvDPn2J6g/edit?usp=sharing">View Resume</span>
+            <a href="https://docs.google.com/document/d/1es11ZmIRBTnWoeXDgfH9l8CfJVNcvV135jVvDPn2J6g/edit?usp=sharing"><span className="button-text">View Resume</span></a>
             </button>
     </div>        
     <div className="break"></div>
