@@ -10,7 +10,7 @@ function Header(props) {
         {props.children}
         <h1>Grace Brown - A Work in Progress</h1>
         <h4>Web Development Portfolio</h4>
-      </div>
+      </div> 
     )
   };
  
