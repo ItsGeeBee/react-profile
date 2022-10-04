@@ -42,7 +42,7 @@ p {
  }
 
 .bitmoji {
-width: 20%;
+width: 20vw;
 margin-bottom: 1px;
 top: -5px;
 }
@@ -330,7 +330,7 @@ button {
   background-color: #000;
 }
 
-/* .header {
-padding-top: 10px;
+#about {
 
-} */
+  margin-top: 5%;
+}
