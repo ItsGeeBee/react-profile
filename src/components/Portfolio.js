@@ -69,7 +69,15 @@ const projects = [
 function Portfolio() {
   return (
     <div>
-       <h3>Projects</h3>
+        <div className="pt-5">
+    <div className="wrapper justify-content-center">
+          <div className="card">
+          <h1>
+          <span className="enclosed">Pro</span>jects
+          </h1>
+        </div>
+        </div>
+        </div> 
       < Project projects={projects}/>
     </div>
   );

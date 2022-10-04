@@ -4,18 +4,15 @@
    --white: #ffff;
 }
 
-li {
-   list-style: none;
-   padding: 0;
-   margin: 0;
-   display: flex;
-   width: 100%;
-   justify-content: flex-start;
+.header {
+
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
 footer {
    width: 100%;
    padding: 10px 0;
+   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
 i {
@@ -76,7 +73,7 @@ font-size: 1.1vw;
 h3 {
    text-align: center;
    font-family: var(--marker);
-   padding-top: 40px;
+   padding-top: 10px;
   }
 
   .a-box {
@@ -137,8 +134,8 @@ h3 {
  
  .card {
    grid-area: 1 / 1;
-   height: 200px;
-   width: 400px;
+   height: 3vh;
+   width: 20vw;
    transform: translateX(10px) rotateY(25deg) rotateX(10deg);
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
    display: flex;
@@ -147,16 +144,12 @@ h3 {
    padding: 30px;
    color: #000;
    text-transform: uppercase;
-   font-size: 60px;
+   font-size: 20%;
    font-weight: 900;
    backface-visibility: hidden;
    box-shadow: 0 10px 30px -3px rgba(0,0,0,.1);
  }
  
- h1 {
-   font-size: 60px;
-   font-weight: 900;
- }
  
  .card .enclosed {
    background: #000;
@@ -178,7 +171,7 @@ h3 {
    margin-top: calc(-1 * var(--bw));
    margin-left: calc(-1 * var(--bw));
    background: transparent;
-   transform: translateX(-60px) rotateY(-30deg) rotateX(15deg) scale(1.03);
+   transform: translateX(-10%) rotateY(-30deg) rotateX(15deg) scale(1.03);
    pointer-events: none;
    border: var(--bw) solid #000;
    box-sizing: content-box;
@@ -287,6 +280,7 @@ button {
  }
 
  .parallax {
+  height: 50%;
   width: 60%;
   margin: 0 auto;
   line-height: 0;
@@ -298,7 +292,7 @@ button {
 }
 .parallax  article {
   position: absolute;
-  top: 0;
+  top: 10px;
   width: 100%;
   background: white;
   display: grid;
@@ -314,10 +308,20 @@ button {
   grid-column: 2 / 4;
 }
  
+
 .nav-active {
-  font-weight: 200;
-  font-style: italic;
-  color: red;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
+.nav-normal {
+
+  font-weight: 300;
+  font-style:normal;
+  color: rgba(50, 50, 50, 0.989);
+  padding: 20px;
+
 }
 
 .break {
@@ -325,3 +329,8 @@ button {
   width: 100%;
   background-color: #000;
 }
+
+/* .header {
+padding-top: 10px;
+
+} */

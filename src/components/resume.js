@@ -5,21 +5,8 @@ function Resume() {
 
 
   return (
-   <div> 
-    <h3>Tricks Up My Sleeve</h3>
-
-    {/* Resume link to google drive to view and download */}
-    <div className="flex-row mb-3">
-    <div className="p-5">
-            <button className="learn-more">
-            <span className="circle" aria-hidden="true">
-            <span className="icon arrow"></span>
-            </span>
-            <a href="https://docs.google.com/document/d/1es11ZmIRBTnWoeXDgfH9l8CfJVNcvV135jVvDPn2J6g/edit?usp=sharing"><span className="button-text">View Resume</span></a>
-            </button>
-    </div>        
-    <div className="break"></div>
-    <div className="p-2">
+   <div>      
+    <div className="pt-5">
     <div className="wrapper justify-content-center">
           <div className="card">
           <h1>
@@ -27,6 +14,15 @@ function Resume() {
           </h1>
         </div>
         </div>
+        <div className="flex-row mb-3">
+    <div className="pt-3">
+            <button className="learn-more">
+            <span className="circle" aria-hidden="true">
+            <span className="icon arrow"></span>
+            </span>
+            <a href="https://docs.google.com/document/d/1es11ZmIRBTnWoeXDgfH9l8CfJVNcvV135jVvDPn2J6g/edit?usp=sharing"><span className="button-text">View Resume</span></a>
+            </button>
+    </div>
         <div>
             <h3>Languages:</h3>
             <p>JavaScript</p>

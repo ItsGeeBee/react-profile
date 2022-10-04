@@ -9,8 +9,14 @@ function About() {
   return (
 
     // Avatar and About me Text
-    <div className="about">
-      <h3>Who is Grace?</h3> 
+    <div className="pt-5 container text-center">
+    <div className="wrapper justify-content-center">
+          <div className="card">
+          <h2>
+          <span className="enclosed">Who's</span>Grace?
+          </h2>
+        </div>
+        </div> 
         <div className="flex-container-outer">
           <img src={Bitmoji} alt="Itsa me!" className="bitmoji"></img>
             <div id="about-me" className="flex-container-about-me"> With a love of computers from a young age, and a background in customer service, I have learnt how cruical a quaility website can be to a successful business.
