@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-profile/static/css/main.84cb31d1.css",
+    "main.js": "/react-profile/static/js/main.f251f7e9.js",
+    "static/media/tradie.png": "/react-profile/static/media/tradie.ac86f14379f84d4c5143.png",
+    "static/media/satisfy.png": "/react-profile/static/media/satisfy.c374362f7161dbfe7c81.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/react-profile/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/react-profile/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/react-profile/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/weather.png": "/react-profile/static/media/weather.7e3686137498a339b1ea.png",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/react-profile/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/planner.png": "/react-profile/static/media/planner.413f0320017c996bf383.png",
+    "static/media/bitmoji.png": "/react-profile/static/media/bitmoji.ec17cd954d3b982684d1.png",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/react-profile/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/quiz.png": "/react-profile/static/media/quiz.c15cfc90d6edc3725a7c.png",
+    "static/media/password.png": "/react-profile/static/media/password.45ff21f5ba05ce241e86.png",
+    "index.html": "/react-profile/index.html",
+    "main.84cb31d1.css.map": "/react-profile/static/css/main.84cb31d1.css.map",
+    "main.f251f7e9.js.map": "/react-profile/static/js/main.f251f7e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84cb31d1.css",
+    "static/js/main.f251f7e9.js"
+  ]
+}
