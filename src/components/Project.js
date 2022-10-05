@@ -5,7 +5,7 @@ import './components.css';
 function Project(props) {
  
   return (
-  <div>
+  <div className="wrap">
     {props.projects.map((project, i) => (
     <div className="a-box">
         <div className="img-container">

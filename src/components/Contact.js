@@ -58,9 +58,9 @@ import { validateEmail } from '../utils/helpers';
   };
 
   return (
-    <div className ="col justify-content-center">
+    <div className ="">
       <h3>Lets Connect!</h3>
-      <form className ="col justify-content-center">
+      <form className ="contact d-flex flex-column justify-content-center">
       <div className ="w-50 p-2">   
         <input className ="form-control"
           value={name}
@@ -88,7 +88,7 @@ import { validateEmail } from '../utils/helpers';
           placeholder="Message"
         />
         </div>
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
+        <button type="button" className="btn btn-secondary" onClick={handleFormSubmit}>Submit</button>
       </form>
       {errorMessage && (
         <div>

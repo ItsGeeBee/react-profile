@@ -4,15 +4,17 @@
    --white: #ffff;
 }
 
+
 .header {
 
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
 footer {
-   width: 100%;
-   padding: 10px 0;
    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+   bottom: 0;
+  position: fixed;
+  width: 100%;
 }
 
 i {
@@ -30,6 +32,11 @@ p {
    color: #56738C;
 }
 
+.text {
+
+  font-size: 2vmin;
+}
+
 .form {
    margin: 20px;
  }
@@ -42,32 +49,17 @@ p {
  }
 
 .bitmoji {
-width: 20vw;
+  height: 450px;
+  width: 450px;
 margin-bottom: 1px;
 top: -5px;
 }
 
-.flex-container-about-me {
-display: flex;
-justify-content:center;
-align-items: center;
-border-color: var(--white);
-padding: 20px;
-border: 8px solid rgb(0, 0, 0);
-border-radius: 15px 50px;
-width: 40%;
-position:relative;
-font-size: 1.1vw;
-}
+h1 {
+  text-align: center;
+  font-family: var(--marker);
+  padding-top: 10px;
 
-.flex-container-outer {
-   display:flex;
-   justify-content: center;
-   align-items: center;
-   margin: 2% auto;
-   border-color: var(--white);
-   padding: 20px;
-   position:relative;
 }
 
 h3 {
@@ -82,7 +74,10 @@ h3 {
    text-align: center;
    padding-bottom: 2%;
  }
- 
+ .wrap{
+
+  margin-bottom: 200px;
+ }
  .img-container {
      height: 200px;
      width: 300px;
@@ -279,35 +274,6 @@ button {
   color: #fff;
  }
 
- .parallax {
-  height: 50%;
-  width: 60%;
-  margin: 0 auto;
-  line-height: 0;
-  position: relative;
-}
-.parallax  img {
-  width: 100%;
-  height: 90%;
-}
-.parallax  article {
-  position: absolute;
-  top: 10px;
-  width: 100%;
-  background: white;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
-  mix-blend-mode: lighten;
-}
-.parallax  div {
-  background: black;
-  height: 25.3vw;
-}
-.parallax  div:nth-of-type(2) {
-  grid-column: 2 / 4;
-}
- 
 
 .nav-active {
   font-weight: 500;
@@ -329,8 +295,11 @@ button {
   width: 100%;
   background-color: #000;
 }
+.contact{
 
-#about {
+  margin:0 auto;
+  text-align: center;
+  align-items: center;
 
-  margin-top: 5%;
 }
+
